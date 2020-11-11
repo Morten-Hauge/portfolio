@@ -164,6 +164,7 @@ a{color: var(--dark-gray-color)}
 	font-size: 6rem;
 	letter-spacing: -2px;
 	transition: all .5s ease-in;
+	transform: translateX(-4px);
 }
 
 @media all and (max-width: 1000px)

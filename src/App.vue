@@ -141,6 +141,7 @@ h1
 	text-align: left;
 	max-width: 90%;
 	position: relative;
+	transform: translateX(-5px);
 }
 
 h1::after
@@ -153,6 +154,7 @@ h1::after
 	bottom: -10px;
 	left: 0;
 	background: var(--callout-color);
+	transform: translateX(5px);
 }
 
 @media all and (max-width: 1000px)
