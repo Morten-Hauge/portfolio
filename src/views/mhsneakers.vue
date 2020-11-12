@@ -31,18 +31,44 @@
 
 			<section class="grid3">
 
-				<img :data-src="images[1].url" :alt="images[1].alt" v-scrollanimation2>
-				<img :data-src="images[2].url" :alt="images[2].alt" v-scrollanimation2>
-				<img :data-src="images[3].url" :alt="images[3].alt" v-scrollanimation2>
+				<figure v-scrollanimation2>
+					<img :data-src="images[1].url" :alt="images[1].alt">
+					<figcaption :class="images[1].captionClass">{{images[1].caption}}</figcaption>
+				</figure>
+				
+				<figure v-scrollanimation2>
+					<img :data-src="images[2].url" :alt="images[2].alt">
+					<figcaption :class="images[2].captionClass">{{images[2].caption}}</figcaption>
+				</figure>
+
+				<figure v-scrollanimation2>
+					<img :data-src="images[3].url" :alt="images[3].alt">
+					<figcaption :class="images[3].captionClass">{{images[3].caption}}</figcaption>
+				</figure>
 
 			</section>
 
 			<section class="grid2">
 
-				<img :data-src="images[11].url" :alt="images[11].alt" v-scrollanimation2>
-				<img :data-src="images[12].url" :alt="images[12].alt" v-scrollanimation2>
-				<img :data-src="images[13].url" :alt="images[13].alt" v-scrollanimation2>
-				<img :data-src="images[14].url" :alt="images[14].alt" v-scrollanimation2>
+				<figure v-scrollanimation2>
+					<img :data-src="images[11].url" :alt="images[11].alt">
+					<figcaption :class="images[11].captionClass">{{images[11].caption}}</figcaption>
+				</figure>
+
+				<figure v-scrollanimation2>
+					<img :data-src="images[12].url" :alt="images[12].alt">
+					<figcaption :class="images[12].captionClass">{{images[12].caption}}</figcaption>
+				</figure>
+
+				<figure v-scrollanimation2>
+					<img :data-src="images[13].url" :alt="images[13].alt">
+					<figcaption :class="images[13].captionClass">{{images[13].caption}}</figcaption>
+				</figure>
+
+				<figure v-scrollanimation2>
+					<img :data-src="images[14].url" :alt="images[14].alt">
+					<figcaption :class="images[14].captionClass">{{images[14].caption}}</figcaption>
+				</figure>
 
 			</section>
 
@@ -77,11 +103,14 @@
 					
 
 					</p>
-				
-					<iframe v-scrollanimation2 height="400" style="width: 100%;" scrolling="no" title="Sneaker data" src="https://codepen.io/morten-hauge/embed/yLOpXrN?height=265&theme-id=dark&default-tab=js" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-					See the Pen <a href='https://codepen.io/morten-hauge/pen/yLOpXrN'>Sneaker data</a> by Morten Hauge
-					(<a href='https://codepen.io/morten-hauge'>@morten-hauge</a>) on <a href='https://codepen.io'>CodePen</a>.
-					</iframe>
+
+					<figure v-scrollanimation2 >
+						<iframe height="400" style="width: 100%;" scrolling="no" title="Sneaker data" src="https://codepen.io/morten-hauge/embed/yLOpXrN?height=265&theme-id=dark&default-tab=js" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+							See the Pen <a href='https://codepen.io/morten-hauge/pen/yLOpXrN'>Sneaker data</a> by Morten Hauge
+							(<a href='https://codepen.io/morten-hauge'>@morten-hauge</a>) on <a href='https://codepen.io'>CodePen</a>.
+						</iframe>
+						<figcaption class="caption-left">Sneakers data stored in JSON</figcaption>
+					</figure>
 
 				</div>
 		
@@ -107,9 +136,15 @@
 
 			<div class="grid2">
 				
-				<img :data-src="images[4].url" :alt="images[4].alt" v-scrollanimation2>
+				<figure v-scrollanimation2>
+					<img :data-src="images[4].url" :alt="images[4].alt">
+					<figcaption :class="images[4].captionClass">{{images[4].caption}}</figcaption>
+				</figure>
 
-				<img :data-src="images[5].url" :alt="images[5].alt" v-scrollanimation2>
+				<figure v-scrollanimation2>
+					<img :data-src="images[5].url" :alt="images[5].alt">
+					<figcaption :class="images[5].captionClass">{{images[5].caption}}</figcaption>
+				</figure>
 
 				<p>
 					
@@ -136,7 +171,10 @@
 
 				</p>
 				
-				<img :data-src="images[7].url" :alt="images[7].alt" v-scrollanimation2>
+				<figure v-scrollanimation2>
+					<img :data-src="images[7].url" :alt="images[7].alt">
+					<figcaption :class="images[7].captionClass">{{images[7].caption}}</figcaption>
+				</figure>
 
 			</div>
 
@@ -166,12 +204,21 @@
 					and I even got a nice photo for the "About" page. 
 
 				</p>
-			
-				<img :data-src="images[8].url" :alt="images[8].alt" v-scrollanimation2>
 
-				<img :data-src="images[9].url" :alt="images[9].alt" v-scrollanimation2>
+				<figure v-scrollanimation2>
+					<img :data-src="images[8].url" :alt="images[8].alt">
+					<figcaption :class="images[8].captionClass">{{images[8].caption}}</figcaption>
+				</figure>
 
-				<img :data-src="images[10].url" :alt="images[10].alt" v-scrollanimation2>
+				<figure v-scrollanimation2>
+					<img :data-src="images[9].url" :alt="images[9].alt">
+					<figcaption :class="images[9].captionClass">{{images[9].caption}}</figcaption>
+				</figure>
+
+				<figure v-scrollanimation2>
+					<img :data-src="images[10].url" :alt="images[10].alt">
+					<figcaption :class="images[10].captionClass">{{images[10].caption}}</figcaption>
+				</figure>
 
 			</div>
 
@@ -217,20 +264,20 @@ export default
 			images:
 			[
 				{ url: require('../assets/work/mhsneakers_001.jpg'), alt: 'MH Sneakers index hero desktop'},
-				{ url: require('../assets/work/mhsneakers_002.png'), alt: 'MH Sneakers index hero mobile'},
-				{ url: require('../assets/work/mhsneakers_003.png'), alt: 'MH Sneakers sneakers links'},
-				{ url: require('../assets/work/mhsneakers_004.png'), alt: 'MH Sneakers sneaker detail page'},
-				{ url: require('../assets/work/mhsneakers_005.jpg'), alt: 'MH Sneakers Sweet image grid'},
-				{ url: require('../assets/work/mhsneakers_006.jpg'), alt: 'MH Sneakers Lukas image grid'},
+				{ url: require('../assets/work/mhsneakers_002.png'), alt: 'MH Sneakers index hero mobile', caption: 'Front page hero mobile', captionClass: 'caption-center'},
+				{ url: require('../assets/work/mhsneakers_003.png'), alt: 'MH Sneakers sneakers links', caption: 'Front page sneakers mobile', captionClass: 'caption-center'},
+				{ url: require('../assets/work/mhsneakers_004.png'), alt: 'MH Sneakers sneaker detail page', caption: 'Sneaker details page mobile', captionClass: 'caption-center'},
+				{ url: require('../assets/work/mhsneakers_005.jpg'), alt: 'MH Sneakers Sweet image grid', caption: '1 / 1 / 1 / 3 split grid', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers_006.jpg'), alt: 'MH Sneakers Lukas image grid', caption: '1 / 2 / 2 / 1 split grid', captionClass: 'caption-left'},
 				{ url: require('../assets/work/mhsneakers_007.jpg'), alt: 'MH Sneakers Vans image grid'},
-				{ url: require('../assets/work/mhsneakers_008.jpg'), alt: 'MH Sneakers all sneaker pages layout Adobe XD'},
-				{ url: require('../assets/work/mhsneakers_009.jpg'), alt: 'MH Sneakers trashed hero designs Adobe XD'},
-				{ url: require('../assets/work/mhsneakers_010.png'), alt: 'MH Sneakers index hero desktop'},
-				{ url: require('../assets/work/mhsneakers_011.png'), alt: 'MH Sneakers about hero desktop'},
-				{ url: require('../assets/work/mhsneakers_012.jpg'), alt: 'MH Sneakers Lukas hero desktop'},
-				{ url: require('../assets/work/mhsneakers_013.jpg'), alt: 'MH Sneakers Vans intro grid desktop'},
-				{ url: require('../assets/work/mhsneakers_014.jpg'), alt: 'MH Sneakers Changsha footer desktop'},
-				{ url: require('../assets/work/mhsneakers_015.jpg'), alt: 'MH Sneakers Changsha footer desktop'},
+				{ url: require('../assets/work/mhsneakers_008.jpg'), alt: 'MH Sneakers all sneaker pages layout Adobe XD', caption: 'Different grids for different sneakers', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers_009.jpg'), alt: 'MH Sneakers trashed hero designs Adobe XD', caption: 'Hero design exploration', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers_010.png'), alt: 'MH Sneakers index hero desktop', caption: 'Front page final hero', captionClass: 'caption-center'},
+				{ url: require('../assets/work/mhsneakers_011.png'), alt: 'MH Sneakers about hero desktop', caption: 'About page final hero', captionClass: 'caption-center'},
+				{ url: require('../assets/work/mhsneakers_012.jpg'), alt: 'MH Sneakers Lukas hero desktop', caption: 'Front page sneakers desktop', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers_013.jpg'), alt: 'MH Sneakers Vans intro grid desktop', caption: 'Sneaker details page hero desktop', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers_014.jpg'), alt: 'MH Sneakers Changsha footer desktop', caption: 'Sneaker details page information and image grid desktop', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers_015.jpg'), alt: 'MH Sneakers Changsha footer desktop', caption: 'Sneaker details page footer desktop', captionClass: 'caption-left'},
 				{ url: require('../assets/work/mhsneakers_016.jpg'), alt: 'MH Sneakers index hero desktop'}
 			]	
 		}
@@ -280,7 +327,7 @@ export default
 
 .content-case-study
 {
-	width: 90%;
+	width: 85%;
 	max-width: var(--max-width);
 	height: auto;
 	margin: 0 auto;
@@ -375,6 +422,21 @@ export default
 		grid-gap: 50px;
 		margin: 50px 0 0 0;
 	}
+}
+
+figcaption{
+	font-size: 1.1rem;
+	margin-top: .8rem;
+}
+
+.caption-left{
+	text-align: left;
+	transform: translateX(3px);
+}
+
+.caption-center{
+	text-align: center;
+	transform: translateX(0);
 }
 
 .text

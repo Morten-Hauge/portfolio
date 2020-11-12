@@ -121,7 +121,7 @@ body
 
 .content
 {
-	width: 90%;
+	width: 85%;
 	max-width: var(--max-width);
 	height: auto;
 	margin: 0 auto;
@@ -144,6 +144,13 @@ h1
 	transform: translateX(-5px);
 }
 
+@media all and (max-width: 830px)
+{
+	h1{
+		max-width: 100%;
+	}
+}
+
 h1::after
 {
 	content: '';
@@ -155,6 +162,15 @@ h1::after
 	left: 0;
 	background: var(--callout-color);
 	transform: translateX(5px);
+}
+
+@media all and (max-width: 830px)
+{
+	h1::after{
+		width: 50px;
+		height: 3px;
+		transform: translateX(0);
+	}
 }
 
 @media all and (max-width: 1000px)

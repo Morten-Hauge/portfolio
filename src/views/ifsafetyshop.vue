@@ -28,16 +28,34 @@
 
 			<section class="grid3">
 
-				<img :data-src="images[1].url" :alt="images[1].alt" v-scrollanimation2>
-				<img :data-src="images[2].url" :alt="images[2].alt" v-scrollanimation2>
-				<img :data-src="images[3].url" :alt="images[3].alt" v-scrollanimation2>
+				<figure v-scrollanimation2>
+					<img :data-src="images[1].url" :alt="images[1].alt">
+					<figcaption :class="images[1].captionClass">{{images[1].caption}}</figcaption>
+				</figure>
+
+				<figure v-scrollanimation2>
+					<img :data-src="images[2].url" :alt="images[2].alt">
+					<figcaption :class="images[2].captionClass">{{images[2].caption}}</figcaption>
+				</figure>
+
+				<figure v-scrollanimation2>
+					<img :data-src="images[3].url" :alt="images[3].alt">
+					<figcaption :class="images[3].captionClass">{{images[3].caption}}</figcaption>
+				</figure>
 
 			</section>
 
 			<section class="grid2">
 
-				<img :data-src="images[4].url" :alt="images[4].alt" v-scrollanimation2>
-				<img :data-src="images[5].url" :alt="images[5].alt" v-scrollanimation2>
+				<figure v-scrollanimation2>
+					<img :data-src="images[4].url" :alt="images[4].alt">
+					<figcaption :class="images[4].captionClass">{{images[4].caption}}</figcaption>
+				</figure>
+
+				<figure v-scrollanimation2>
+					<img :data-src="images[5].url" :alt="images[5].alt">
+					<figcaption :class="images[5].captionClass">{{images[5].caption}}</figcaption>
+				</figure>
 
 			</section>
 
@@ -74,14 +92,35 @@
 
 				<div class="grid2">
 
-					<img :data-src="images[6].url" :alt="images[6].alt" v-scrollanimation2>
-					<img :data-src="images[7].url" :alt="images[7].alt" v-scrollanimation2>
+					<figure v-scrollanimation2>
+						<img :data-src="images[6].url" :alt="images[6].alt">
+						<figcaption :class="images[6].captionClass">{{images[6].caption}}</figcaption>
+					</figure>
 
-					<img :data-src="images[8].url" :alt="images[8].alt" v-scrollanimation2>
-					<img :data-src="images[9].url" :alt="images[9].alt" v-scrollanimation2>
+					<figure v-scrollanimation2>
+						<img :data-src="images[7].url" :alt="images[7].alt">
+						<figcaption :class="images[7].captionClass">{{images[7].caption}}</figcaption>
+					</figure>
 
-					<img :data-src="images[10].url" :alt="images[10].alt" v-scrollanimation2>
-					<img :data-src="images[11].url" :alt="images[11].alt" v-scrollanimation2>
+					<figure v-scrollanimation2>
+						<img :data-src="images[8].url" :alt="images[8].alt">
+						<figcaption :class="images[8].captionClass">{{images[8].caption}}</figcaption>
+					</figure>
+
+					<figure v-scrollanimation2>
+						<img :data-src="images[9].url" :alt="images[9].alt">
+						<figcaption :class="images[9].captionClass">{{images[9].caption}}</figcaption>
+					</figure>
+
+					<figure v-scrollanimation2>
+						<img :data-src="images[10].url" :alt="images[10].alt">
+						<figcaption :class="images[10].captionClass">{{images[10].caption}}</figcaption>
+					</figure>
+					
+					<figure v-scrollanimation2>
+						<img :data-src="images[11].url" :alt="images[11].alt">
+						<figcaption :class="images[11].captionClass">{{images[11].caption}}</figcaption>
+					</figure>
 
 				</div>
 
@@ -126,17 +165,17 @@ export default
 			images:
 			[
 				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop001.jpg'), alt: 'If Safety Shop index hero desktop'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop002.png'), alt: 'If Safety Shop index hero mobile'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop003.png'), alt: 'If Safety Shop category page mobile'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop004.png'), alt: 'If Safety Shop product page mobile'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop005.jpg'), alt: 'If Safety Shop front page desktop'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop006.jpg'), alt: 'If Safety Shop product page desktop'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop007.jpg'), alt: 'If Safety Shop front page old design'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop008.jpg'), alt: 'If Safety Shop front page'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop009.jpg'), alt: 'If Safety Shop category page old design'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop010.jpg'), alt: 'If Safety Shop category page'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop011.jpg'), alt: 'If Safety Shop checkout page old design'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop012.jpg'), alt: 'If Safety Shop checkout page'}
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop002.png'), alt: 'If Safety Shop index hero mobile', caption: 'Front page mobile', captionClass: 'caption-center'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop003.png'), alt: 'If Safety Shop category page mobile', caption: 'Category page mobile', captionClass: 'caption-center'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop004.png'), alt: 'If Safety Shop product page mobile', caption: 'Product details page mobile', captionClass: 'caption-center'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop005.jpg'), alt: 'If Safety Shop front page desktop', caption: 'Front page categories desktop', captionClass: 'caption-left'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop006.jpg'), alt: 'If Safety Shop product page desktop', caption: 'Product details page desktop', captionClass: 'caption-left'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop007.jpg'), alt: 'If Safety Shop front page old design', caption: 'Front page before', captionClass: 'caption-left'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop008.jpg'), alt: 'If Safety Shop front page', caption: 'Front page after', captionClass: 'caption-left'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop009.jpg'), alt: 'If Safety Shop category page old design', caption: 'Category page before', captionClass: 'caption-left'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop010.jpg'), alt: 'If Safety Shop category page', caption: 'Category page after', captionClass: 'caption-left'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop011.jpg'), alt: 'If Safety Shop checkout page old design', caption: 'Checkout before', captionClass: 'caption-left'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop012.jpg'), alt: 'If Safety Shop checkout page', caption: 'Checkout after', captionClass: 'caption-left'}
 			]	
 		}
 	}	
@@ -185,7 +224,7 @@ export default
 
 .content-case-study
 {
-	width: 90%;
+	width: 85%;
 	max-width: var(--max-width);
 	height: auto;
 	margin: 0 auto;
@@ -292,6 +331,21 @@ export default
 		grid-gap: 50px;
 		margin: 50px 0 0 0;
 	}
+}
+
+figcaption{
+	font-size: 1.1rem;
+	margin-top: .8rem;
+}
+
+.caption-left{
+	text-align: left;
+	transform: translateX(3px);
+}
+
+.caption-center{
+	text-align: center;
+	transform: translateX(0);
 }
 
 .text
