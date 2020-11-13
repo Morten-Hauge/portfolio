@@ -81,7 +81,7 @@ header
 
 .logo-link
 {
-	margin: 0 0 0 30px;
+	margin: 0 0 0 40px;
 }
 
 .logo-header
@@ -116,6 +116,7 @@ header
 nav
 {
 	margin-left: auto;
+	margin-right: 10px;
 	align-self: center;
 }
 
