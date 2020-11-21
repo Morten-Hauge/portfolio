@@ -65,7 +65,7 @@ export default {
 	transform: translateY(-10px);
 }
 
-.card:hover >  .card_button
+.card:hover > .card_button
 {
 	background: var(--dark-gray-color);
 	color: var(--callout-color);
@@ -100,7 +100,17 @@ export default {
 	font-size: 3rem;
 	font-weight: 600;
 	line-height: 3rem;
-	margin: 50px 50px 30px 50px;
+	margin: 50px 50px 15px 50px;
+}
+
+@media all and (max-width: 1112px)
+{
+	.card h2
+	{
+		font-size: 2.5rem;
+		line-height: 2.5rem;
+		margin: 30px 20px 15px 30px;
+	}
 }
 
 @media all and (max-width: 800px)
@@ -116,10 +126,20 @@ export default {
 .card p
 {
 	color: var(--text-color);
-	font-size: 2rem;
-	line-height: 2.5rem;
+	font-size: 1.5rem;
+	line-height: 2rem;
 	font-weight: 300;
 	margin: 0 50px 50px 50px;
+}
+
+@media all and (max-width: 1112px)
+{
+	.card p
+	{
+		font-size: 1.3rem;
+		line-height: 1.5rem;
+		margin: 0 0 40px 30px;
+	}
 }
 
 @media all and (max-width: 800px)
@@ -144,11 +164,12 @@ export default {
 	justify-self: left;
 }
 
-@media all and (max-width: 1000px)
+@media all and (max-width: 1112px)
 {
 	.card_button
 	{
-		font-size: 14px;
+		font-size: 1rem;
+		margin: 0 0 30px 30px;
 	}
 }
 

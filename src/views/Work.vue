@@ -65,7 +65,6 @@ export default
 .card_grid
 {
 	width: 100%;
-	min-height: 650px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 100px;

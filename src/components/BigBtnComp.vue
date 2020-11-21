@@ -209,20 +209,12 @@ a{color: var(--dark-gray-color)}
 
 .button
 {
-	font-size: 25px;
+	font-size: 1.3rem;
 	background: var(--callout-color);
 	color: var(--dark-gray-color);
 	border-radius: 3px;
-	padding: 20px 30px;
+	padding: 15px 25px;
 	transition: all .5s ease-in;
-}
-
-@media all and (max-width: 1000px)
-{
-	.button
-	{
-		font-size: 14px;
-	}
 }
 
 @media all and (max-width: 800px)

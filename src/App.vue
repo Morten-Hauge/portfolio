@@ -129,6 +129,13 @@ body
 	position: relative;
 }
 
+@media all and (max-width: 1112px)
+{
+	.content{
+		padding: 0 0 150px 0;
+	}
+}
+
 h1
 {
 	font-family: 'neuzeit-grotesk', sans-serif;

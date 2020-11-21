@@ -73,7 +73,7 @@ export default
 	box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.4);
 }
 
-@media all and (max-width: 1100px)
+@media all and (max-width: 1200px)
 {
 	.profile_card
 	{
@@ -102,7 +102,7 @@ export default
 	border-radius: 20px 20px 0 0;
 }
 
-@media all and (max-width: 1000px)
+@media all and (max-width: 1200px)
 {
 	.profile_card_cover
 	{
@@ -118,7 +118,7 @@ export default
 	padding: 0;
 }
 
-@media all and (max-width: 1000px)
+@media all and (max-width: 1200px)
 {
 	.profile_image
 	{
@@ -156,7 +156,7 @@ export default
 	display: inline-block;
 }
 
-@media all and (max-width: 1000px)
+@media all and (max-width: 1200px)
 {
 	.profile_card_text span
 	{
@@ -188,7 +188,7 @@ cursor: pointer;
 	color: var(--callout-color);
 }
 
-@media all and (max-width: 1000px)
+@media all and (max-width: 1200px)
 {
 	.profile_card_text p
 	{
