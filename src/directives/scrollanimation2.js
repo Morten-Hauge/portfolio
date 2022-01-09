@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { entries } from "core-js/fn/array";
 
 const animatedScrollObserver = new IntersectionObserver(

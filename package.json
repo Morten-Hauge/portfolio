@@ -10,6 +10,7 @@
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
     "core-js": "^2.6.5",
+    "gsap": "file:gsap-bonus.tgz",
     "serialize-javascript": "^4.0.0",
     "vue": "^2.6.10",
     "vue-headful": "^2.1.0",
