@@ -368,6 +368,8 @@ h1::after
 .grid2 img, .grid3 img
 {
 	width: 100%;
+	/* box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.4); */
+	filter: drop-shadow(0 0 20px rgba(0,0,0,0.5));
 }
 
 @media all and (max-width: 800px)
@@ -381,8 +383,8 @@ h1::after
 }
 
 figcaption{
-	font-size: 1.1rem;
-	margin-top: .8rem;
+	font-size: 1.3rem;
+	margin-top: 1rem;
 }
 
 .caption-left{

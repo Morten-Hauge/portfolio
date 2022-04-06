@@ -1,31 +1,31 @@
 <template>
 
-<router-link :to="cardData.link" class="card-link" :aria-label="cardData.title">
+<a :href="cardSmallData.link" target="_blank" class="card-link" :aria-label="cardSmallData.title">
 
-	<section class="card">
+	<section class="card_small">
 
-		<img v-bind:src="`${cardData.image}`" class="card_img" /> 
+		<img v-bind:src="`${cardSmallData.image}`" class="card_img" /> 
 					
-		<h2>{{cardData.title}}</h2>
+		<span class="heading">{{cardSmallData.title}}</span>
 					
 		<p>
-			{{cardData.description}}
+			{{cardSmallData.description}}
 		</p>
 					
-		<span class="card_button">{{cardData.cta}}</span>
+		<span class="card_small_button">{{cardSmallData.cta}}</span>
 		
 	</section>
 
-</router-link>
+</a>
 
 </template>
 
 <script>
 
 export default {
-	name: "CardComp",
+	name: "CardSmallComp",
 	props: {
-		cardData: {
+		cardSmallData: {
 			type: Object
 		}
 	}
@@ -45,7 +45,7 @@ export default {
 	box-shadow: 0 0 0 5px var(--callout-color);
 }
 
-.card
+.card_small
 {
 	width: 100%;
 	height: 100%;
@@ -60,12 +60,12 @@ export default {
 	grid-template-rows: max-content max-content 1fr max-content;
 }
 
-.card:hover
+.card_small:hover
 {
 	transform: translateY(-10px);
 }
 
-.card:hover > .card_button
+.card_small:hover > .card_small_button
 {
 	background: var(--dark-gray-color);
 	color: var(--callout-color);
@@ -80,7 +80,7 @@ export default {
 
 @media all and (max-width: 800px)
 {
-	.card
+	.card_small
 	{
 		text-align:center;
 	}
@@ -94,20 +94,20 @@ export default {
 }
 
 
-.card h2
+.card_small span.heading
 {
 	color: var(--text-color);
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 600;
 	line-height: 3rem;
-	margin: 50px 50px 15px 50px;
+	margin: 15px 30px 15px 30px;
 }
 
 @media all and (max-width: 1112px)
 {
-	.card h2
+	.card_small span.heading
 	{
-		font-size: 2.5rem;
+		font-size: 2rem;
 		line-height: 2.5rem;
 		margin: 30px 20px 15px 30px;
 	}
@@ -115,7 +115,7 @@ export default {
 
 @media all and (max-width: 800px)
 {
-	.card h2
+	.card_small span.heading
 	{
 		font-size: 2rem;
 		line-height: 2.5rem;
@@ -123,28 +123,28 @@ export default {
 	}
 }
 
-.card p
+.card_small p
 {
 	color: var(--text-color);
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	line-height: 2rem;
 	font-weight: 300;
-	margin: 0 50px 50px 50px;
+	margin: 0 30px 30px 30px;
 }
 
 @media all and (max-width: 1112px)
 {
-	.card p
+	.card_small p
 	{
 		font-size: 1.3rem;
-		line-height: 1.5rem;
-		margin: 0 0 40px 30px;
+		line-height: 2rem;
+		margin: 0 30px 30px 30px;
 	}
 }
 
 @media all and (max-width: 800px)
 {
-	.card p
+	.card_small p
 	{
 		font-size: 1.3rem;
 		line-height: 1.8rem;
@@ -152,7 +152,7 @@ export default {
 	}
 }
 
-.card_button
+.card_small_button
 {
 	font-size: 20px;
 	background: var(--callout-color);
@@ -160,13 +160,13 @@ export default {
 	border-radius: 5px;
 	padding: 15px 25px;
 	transition: all .3s ease-in;
-	margin: 0 0 50px 50px;
+	margin: 0 0 30px 30px;
 	justify-self: left;
 }
 
 @media all and (max-width: 1112px)
 {
-	.card_button
+	.card_small_button
 	{
 		font-size: 1rem;
 		margin: 0 0 30px 30px;
@@ -175,7 +175,7 @@ export default {
 
 @media all and (max-width: 800px)
 {
-	.card_button
+	.card_small_button
 	{
 		font-size: 14px;
 		padding: 15px 20px;

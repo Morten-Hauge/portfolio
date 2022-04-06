@@ -165,9 +165,9 @@ export default
 			images:
 			[
 				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop001.jpg'), alt: 'If Safety Shop index hero desktop'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop002.png'), alt: 'If Safety Shop index hero mobile', caption: 'Front page mobile', captionClass: 'caption-center'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop003.png'), alt: 'If Safety Shop category page mobile', caption: 'Category page mobile', captionClass: 'caption-center'},
-				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop004.png'), alt: 'If Safety Shop product page mobile', caption: 'Product details page mobile', captionClass: 'caption-center'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop002.png'), alt: 'If Safety Shop index hero mobile', caption: 'Front page mobile', captionClass: 'caption-left'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop003.png'), alt: 'If Safety Shop category page mobile', caption: 'Category page mobile', captionClass: 'caption-left'},
+				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop004.png'), alt: 'If Safety Shop product page mobile', caption: 'Product details page mobile', captionClass: 'caption-left'},
 				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop005.jpg'), alt: 'If Safety Shop front page desktop', caption: 'Front page categories desktop', captionClass: 'caption-left'},
 				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop006.jpg'), alt: 'If Safety Shop product page desktop', caption: 'Product details page desktop', captionClass: 'caption-left'},
 				{ url: require('../assets/work/ifsafetyshop/ifsafetyshop007.jpg'), alt: 'If Safety Shop front page old design', caption: 'Front page before', captionClass: 'caption-left'},

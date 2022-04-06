@@ -263,22 +263,22 @@ export default
 		return{
 			images:
 			[
-				{ url: require('../assets/work/mhsneakers_001.jpg'), alt: 'MH Sneakers index hero desktop'},
-				{ url: require('../assets/work/mhsneakers_002.png'), alt: 'MH Sneakers index hero mobile', caption: 'Front page hero mobile', captionClass: 'caption-center'},
-				{ url: require('../assets/work/mhsneakers_003.png'), alt: 'MH Sneakers sneakers links', caption: 'Front page sneakers mobile', captionClass: 'caption-center'},
-				{ url: require('../assets/work/mhsneakers_004.png'), alt: 'MH Sneakers sneaker detail page', caption: 'Sneaker details page mobile', captionClass: 'caption-center'},
-				{ url: require('../assets/work/mhsneakers_005.jpg'), alt: 'MH Sneakers Sweet image grid', caption: '1 / 1 / 1 / 3 split grid', captionClass: 'caption-left'},
-				{ url: require('../assets/work/mhsneakers_006.jpg'), alt: 'MH Sneakers Lukas image grid', caption: '1 / 2 / 2 / 1 split grid', captionClass: 'caption-left'},
-				{ url: require('../assets/work/mhsneakers_007.jpg'), alt: 'MH Sneakers Vans image grid'},
-				{ url: require('../assets/work/mhsneakers_008.jpg'), alt: 'MH Sneakers all sneaker pages layout Adobe XD', caption: 'Different grids for different sneakers', captionClass: 'caption-left'},
-				{ url: require('../assets/work/mhsneakers_009.jpg'), alt: 'MH Sneakers trashed hero designs Adobe XD', caption: 'Hero design exploration', captionClass: 'caption-left'},
-				{ url: require('../assets/work/mhsneakers_010.png'), alt: 'MH Sneakers index hero desktop', caption: 'Front page final hero', captionClass: 'caption-center'},
-				{ url: require('../assets/work/mhsneakers_011.png'), alt: 'MH Sneakers about hero desktop', caption: 'About page final hero', captionClass: 'caption-center'},
-				{ url: require('../assets/work/mhsneakers_012.jpg'), alt: 'MH Sneakers Lukas hero desktop', caption: 'Front page sneakers desktop', captionClass: 'caption-left'},
-				{ url: require('../assets/work/mhsneakers_013.jpg'), alt: 'MH Sneakers Vans intro grid desktop', caption: 'Sneaker details page hero desktop', captionClass: 'caption-left'},
-				{ url: require('../assets/work/mhsneakers_014.jpg'), alt: 'MH Sneakers Changsha footer desktop', caption: 'Sneaker details page information and image grid desktop', captionClass: 'caption-left'},
-				{ url: require('../assets/work/mhsneakers_015.jpg'), alt: 'MH Sneakers Changsha footer desktop', caption: 'Sneaker details page footer desktop', captionClass: 'caption-left'},
-				{ url: require('../assets/work/mhsneakers_016.jpg'), alt: 'MH Sneakers index hero desktop'}
+				{ url: require('../assets/work/mhsneakers/mhsneakers_001.jpg'), alt: 'MH Sneakers index hero desktop'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_002.png'), alt: 'MH Sneakers index hero mobile', caption: 'Front page hero mobile', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_003.png'), alt: 'MH Sneakers sneakers links', caption: 'Front page sneakers mobile', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_004.png'), alt: 'MH Sneakers sneaker detail page', caption: 'Sneaker details page mobile', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_005.jpg'), alt: 'MH Sneakers Sweet image grid', caption: '1 / 1 / 1 / 3 split grid', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_006.jpg'), alt: 'MH Sneakers Lukas image grid', caption: '1 / 2 / 2 / 1 split grid', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_007.jpg'), alt: 'MH Sneakers Vans image grid'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_008.jpg'), alt: 'MH Sneakers all sneaker pages layout Adobe XD', caption: 'Different grids for different sneakers', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_009.jpg'), alt: 'MH Sneakers trashed hero designs Adobe XD', caption: 'Hero design exploration', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_010.png'), alt: 'MH Sneakers index hero desktop', caption: 'Front page final hero', captionClass: 'caption-center'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_011.png'), alt: 'MH Sneakers about hero desktop', caption: 'About page final hero', captionClass: 'caption-center'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_012.jpg'), alt: 'MH Sneakers Lukas hero desktop', caption: 'Front page sneakers desktop', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_013.jpg'), alt: 'MH Sneakers Vans intro grid desktop', caption: 'Sneaker details page hero desktop', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_014.jpg'), alt: 'MH Sneakers Changsha footer desktop', caption: 'Sneaker details page information and image grid desktop', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_015.jpg'), alt: 'MH Sneakers Changsha footer desktop', caption: 'Sneaker details page footer desktop', captionClass: 'caption-left'},
+				{ url: require('../assets/work/mhsneakers/mhsneakers_016.jpg'), alt: 'MH Sneakers index hero desktop'}
 			]	
 		}
 	}	
